@@ -1,0 +1,153 @@
+.sanpham {
+    width:25%;
+    float:left;
+    
+}
+.container {
+    width:1000px;
+    margin:auto;
+    text-align: center;
+}
+.prod {
+    position:relative;
+    border: 2px solid #FFFF00 ;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color:rgb(206, 255, 255);
+}
+    
+.prod > .image{
+    max-width: 90%; height: 180px; margin-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+    
+.prod>.name { color:orangered; 
+    font-size:18px;
+    margin-bottom:5px;
+    margin-top: 10px; 
+    text-align: center; text-decoration: none;
+    font-weight: bold;
+}
+.prod > .price {
+    position:absolute;
+    left: 10px;
+    bottom: 5px;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 18px;
+    color: crimson;
+    margin: 0px 60px;
+    margin-bottom: 20px;
+}
+.prod>.new-icon{
+    position: absolute; right:5px; top:5px;
+    left: 2px; 
+    top: 2px;
+   margin-bottom: 10px;
+}
+
+#wrapper {
+    Width:950px;
+    margin: 0px auto;
+}
+#logo{
+    float:left;
+    height:90px;
+    padding-bottom: 10px;
+    
+}
+#logo img {
+    height:100%;
+    width:auto;
+    padding-bottom: 10px;
+}
+ul li {
+    list-style: none;
+}
+
+ul#main_menu li{
+   float:left;
+}
+ul#main_menu li a{
+    padding: 8px 15px;
+    color:red;
+    text-decoration: none;
+    display:block;
+   line-height: 25px; 
+  padding-left: 10px;
+ 
+  
+    
+}
+ul#main_menu {
+    font-size: 18px;
+    margin-left: 10px;
+    line-height: 10px;
+   
+
+}
+.text{
+    width:200px;
+    height:20px;
+    margin-top: 8px;
+    background:#ffffff;
+    padding-left: 5px;
+}
+.timkiem {
+    width:90px;
+    height:20px;
+    background: #dd3823;
+    border:0.5 solid #e72e2e;
+    color:#ffffff;
+}
+form {
+text-align:right;
+    margin-right: 35px;
+}
+.banner img {
+    width:100%;
+    height: 100%;
+}
+.td {
+    width:980px;
+    height: 65px;
+    line-height: 65px;
+}
+.td p {
+    font-size: 18px;
+    font-weight:bold;
+    color:#e72e2e;
+}
+ul#main_menu > li:hover >ul {
+    display:block; 
+    width:160px;
+    list-style:none;
+    border-radius:3px;
+    box-shadow:0 0 1px gray;
+    background-color:rgb(180, 255, 5);
+    text-align: left;
+    
+} 
+ul#main_menu > li >ul>li>a:hover{
+    color:darkorchid;
+    text-decoration: underline;
+    
+}
+ul#main_menu ul{
+    position:absolute;
+    display:none;
+}
+.content p:hover{
+    color:rgb(140, 6, 180);
+}
+.content p{
+    text-align: center;
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+.prod img:hover{
+    transform:scale(1.15);
+}
